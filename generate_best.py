@@ -38,3 +38,8 @@ def generate_best(result_host):
     pass
 result = generate_best(result_host)
 print(result)
+
+'''
+Q: 这个模型有什么问题？ 你准备如何提升？
+Ans:这里判断合语句理性，可能与语料中词语出现的频率相关。模型可能不是特别准确，提升方法：语料补充，模型提升成3-gram
+'''
